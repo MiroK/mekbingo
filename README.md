@@ -1,5 +1,9 @@
 # TRIAL LECTURE BINGO
 
-To generate new cards provide your `\randomwords` in `bingo.tex`. At UiO's
-math institute is should be possible to mass produce the cards by running
-`./bingo.sh 100` where 100 will be the number of cards produced.
+You might need to `chmod u+x bigo.sh` to make the script executable. To
+generate new cards provide your `\randomwords` in `bingo.tex`. Running
+`./bingo.sh 100` will produce 100 sheets of bingo cards in `cards` directory.
+One sheet has two bingo cards. It might be convenient to send the cards
+to the printer rightaway. At UiO, provided that `pullprint_ricoh` is still
+a thing, `./bingo.sh 100 --print` should do the job.
+
