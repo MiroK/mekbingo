@@ -1,6 +1,6 @@
 # TRIAL LECTURE BINGO
 
-You might need to `chmod u+x bigo.sh` to make the script executable. To
+You might need to `chmod u+x bingo.sh` to make the script executable. To
 generate new cards provide your `\randomwords` in `bingo.tex`. Running
 `./bingo.sh 100` will produce 100 sheets of bingo cards in `cards` directory.
 One sheet has two bingo cards. It might be convenient to send the cards
